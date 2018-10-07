@@ -1,7 +1,7 @@
 SECTION = "devel"
 
 DEPENDS = "openssl zlib libgit2 curl ca-certificates libssh2"
-RDEPENDS_cargo_native = "openssl zlib libgit2 curl ca-certificates libssh2"
+RDEPENDS_cargo-native = "openssl zlib libgit2 curl ca-certificates libssh2"
 
 LIC_FILES_CHKSUM += " \
 file://LICENSE-THIRD-PARTY;md5=892ea68b169e69cfe75097fc38a15b56 \
