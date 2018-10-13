@@ -1,6 +1,7 @@
 SECTION = "devel"
 
 DEPENDS = "openssl zlib libgit2 curl ca-certificates libssh2"
+DEPENDS_cargo-native = "openssl zlib libgit2 curl ca-certificates libssh2"
 RDEPENDS_cargo-native = "openssl zlib libgit2 curl ca-certificates libssh2"
 
 LIC_FILES_CHKSUM += " \
